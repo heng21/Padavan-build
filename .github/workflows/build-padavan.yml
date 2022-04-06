@@ -7,7 +7,7 @@ on:
     tags:
     - 'v*'
     branches: 
-      -MI-3
+      - MI-3
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
