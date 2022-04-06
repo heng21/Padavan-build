@@ -1,4 +1,3 @@
-#K2 8M Adbyby+Aliddns+3.0驱动
 name: Build Padavan
 
 on: 
@@ -15,7 +14,7 @@ on:
     types: [started]
 
 jobs:
-    build:
+  build:
     runs-on: ubuntu-18.04
     if: github.event.repository.owner.id == github.event.sender.id
 
