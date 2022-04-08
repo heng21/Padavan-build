@@ -71,7 +71,7 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_TTYD/d' .config #删除TTYD配置项
         sed -i '/CONFIG_FIRMWARE_INCLUDE_LRZSZ/d' .config #删除LRZSZ配置项
         sed -i '/CONFIG_FIRMWARE_INCLUDE_HTOP/d' .config #删除HTOP配置项
-        sed -i '/CONFIG_FIRMWARE_INCLUDE_NANO/d' .config #删除NANO   配置项    
+        sed -i '/CONFIG_FIRMWARE_INCLUDE_NANO/d' .config #删除NANO   配置项
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SMARTDNS/d' .config 
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config 
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y/g' .config
